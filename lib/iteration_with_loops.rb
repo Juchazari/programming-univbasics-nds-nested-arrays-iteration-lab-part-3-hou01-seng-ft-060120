@@ -7,10 +7,16 @@ def join_nested_strings(src)
   while count < src.length do
     
     inner_count = 0
+    sing_string_value = ""
     
     while inner_count < src[count].length do
-      # do something
+      
+      if src[count][inner_count].class == String
+        
+      end
+      
       inner_count += 1
+      
     end
     
     count += 1
