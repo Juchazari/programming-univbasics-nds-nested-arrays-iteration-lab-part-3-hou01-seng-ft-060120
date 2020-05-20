@@ -23,6 +23,6 @@ def join_nested_strings(src)
     
   end
   
-  single_string_value
+  single_string_value.join(" ")
   
 end
