@@ -10,6 +10,7 @@ def join_nested_strings(src)
     
     while inner_count < src[count].length do
       # do something
+      inner_count += 1
     end
     
     count += 1
